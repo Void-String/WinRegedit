@@ -1,0 +1,80 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer]
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+"MUIVerb"="Shutdown"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell]
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command001]
+"MUIVerb"="10 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command001\command]
+@="shutdown -s -t 600"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command002]
+"MUIVerb"="20 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command002\command]
+@="shutdown -s -t 1200"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command003]
+"MUIVerb"="30 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command003\command]
+@="shutdown -s -t 1800"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command004]
+"MUIVerb"="40 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command004\command]
+@="shutdown -s -t 2400"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command005]
+"MUIVerb"="50 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command005\command]
+@="shutdown -s -t 3000"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command006]
+"MUIVerb"="60 Minutes"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command006\command]
+@="shutdown -s -t 3600"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command007]
+"MUIVerb"="2 Hours"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command007\command]
+@="shutdown -s -t 7200"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command008]
+"MUIVerb"="3 Hours"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command008\command]
+@="shutdown -s -t 10800"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command009]
+"MUIVerb"="Clear Timer"
+"Icon"="E:\\Icons\\Others\\Timer.ico"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\ShutdownTimer\shell\Command009\command]
+@="shutdown -a"
+

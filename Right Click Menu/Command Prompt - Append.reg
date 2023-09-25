@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt]
+"Icon"="%SystemRoot%\\System32\\cmd.exe"
+"MUIVerb"="Command Prompt"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt\shell]
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt\shell\Command001]
+"MUIVerb"="Command Prompt"
+"Icon"="%SystemRoot%\\System32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt\shell\Command001\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt\shell\Command002]
+"MUIVerb"="Command Prompt Administrator"
+"Icon"="%SystemRoot%\\System32\\cmd.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\CmdPrompt\shell\Command002\command]
+@="cmd.exe /s /k pushd \"%V\""
+
